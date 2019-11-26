@@ -2,8 +2,8 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="0b0976d7-b4fe-4cb3-8e8f-44e9fcbdbb05" name="vagrant server" url="http://localhost:8765">
-        <fileTransfer port="0" mountedRoot="$PROJECT_DIR$" accessType="MOUNT" />
+      <webServer id="b6d2643d-184b-4bba-8ce2-eb892056e39d" name="vagrant" url="http://localhost:8765">
+        <fileTransfer port="0" mountedRoot="C:\" accessType="MOUNT" />
       </webServer>
     </option>
   </component>
