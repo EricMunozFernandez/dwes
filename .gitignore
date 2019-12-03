@@ -1,2 +1,13 @@
 
+.idea/
+
+.vagrant/
+
+_Vagrantfile
+
+Vagrantfile 
+
+
+ubuntu-bionic-18.04-cloudimg-console.log
+
 .DS_Store
