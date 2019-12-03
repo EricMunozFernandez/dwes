@@ -4,7 +4,7 @@ require_once 'ejercicio05-datos.php';
 /*** FUNCIONES ***/
 function generarTablaProductos($productos) {
     echo "
-        <table class='table'>
+        <table models='table'>
             <thead>
                 <tr><th>Nombre</th><th>Descripción</th><th>Precio</th><th>Cantidad</th></tr>
             </thead>
