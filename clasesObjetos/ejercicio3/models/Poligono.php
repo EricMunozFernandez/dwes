@@ -4,7 +4,7 @@
 namespace ejercicio3\models;
 
 
-class Poligono
+abstract class Poligono
 {
  private $color, $altura, $anchura;
 
@@ -12,8 +12,9 @@ class Poligono
  {
      $this->color=$color;
      $this->altura=$altura;
-     $this->anchura=$altura;
+     $this->anchura=$anchura;
  }
+public abstract function area();
 
     /**
      * @return mixed

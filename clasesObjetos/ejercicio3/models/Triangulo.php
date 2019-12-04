@@ -9,6 +9,6 @@ class Triangulo extends Poligono
     public function area()
     {
         $area = ($this->getAltura() * $this->getAnchura()) / 2;
-        echo $area;
+        echo 'El area del triangulo es de: '.$area.'<br>';
     }
 }
