@@ -10,17 +10,8 @@ abstract class User
 {
     protected $username, $nombre, $apellidos, $email, $password, $ultimo_acceso, $loger;
 
-    /**
-     * User constructor.
-     * @param $username
-     * @param $nombre
-     * @param $apellidos
-     * @param $email
-     * @param $password
-     * @param $ultimo_acceso
-     * @param $loger
-     */
-    public function __construct($username, $nombre, $apellidos, $email, $password, $ultimo_acceso, $loger)
+
+    public function __construct($username, $nombre, $apellidos, $email, $password, $ultimo_acceso)
     {
         $this->username = $username;
         $this->nombre = $nombre;
@@ -37,12 +28,12 @@ abstract class User
 
     public function login()
     {
-
+        $this->loger->debug('Ejecutando el metodo '.__FUNCTION__.' por el usuario ' . $this->username . '');
     }
 
     public function logout()
     {
-
+        $this->loger->debug('Ejecutando el metodo '.__FUNCTION__.' por el usuario ' . $this->username . '');
     }
 
     /**
